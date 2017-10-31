@@ -7,16 +7,16 @@ angular.module('laughter', ['ui.router'])
                 controller: 'mainCtrl'
             })
 
-            .state('resume', {
-                url: '/resume',
-                templateUrl: './views/resume.html',
-                controller: 'resumeCtrl'
-            })
-
             .state('portfolio', {
                 url: '/portfolio',
                 templateUrl: './views/portfolio.html',
                 controller: 'portfolioCtrl'
+            })
+
+            .state('resume', {
+                url: '/resume',
+                templateUrl: './views/resume.html',
+                controller: 'resumeCtrl'
             })
 
             .state('importfoundation', {
